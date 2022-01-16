@@ -1,0 +1,177 @@
+@import url(./fonts.css);
+
+input
+{
+	font-family: suez;
+}
+
+textarea
+{
+	font-family: suez;
+}
+
+.button-annuncio-modifica
+{
+	width:100px;
+}
+
+.category-title-annuncio
+{
+	text-align:center;
+}
+
+.category-annuncio
+{
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	margin-top:45%;
+}
+
+.table-messaggi
+{	
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+	font-family : suez;
+	text-align : center;
+	background-color : #EFEFEF;
+	border: .5px solid black;
+	border-radius: .5rem;
+}
+
+.mappa
+{
+	position: absolute; 
+	top: 50%; 
+	bottom: 0; 
+	width: 100%;
+}
+
+
+
+.table-annunci
+{
+	font-family : suez;
+	text-align : center;
+	margin-left : 11%;
+}
+
+.int
+{
+	width:60px;
+}
+
+.table-annunci-elenco
+{
+	font-family : suez;
+	text-align : center;
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+	background-color : #EFEFEF;
+	border: .5px solid black;
+	border-radius: .5rem;
+}
+
+
+.no-border
+{
+	border : none;
+}
+
+.no-border-tipo
+{
+	border : none;
+	color:#EFEFEF;
+}
+
+.ban
+{
+	margin-left : 36%;
+}
+
+.background
+{
+	background-color:white;
+	border-radius: .4rem;
+}
+
+.recensione
+{
+	border : none;
+	width : 150px;
+}
+
+.table-annunci-elenco-acquirente
+{
+	font-family : suez;
+	text-align : center;
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+	background-color : #EFEFEF;
+	border: .5px solid black;
+	border-radius: .5rem;
+}
+
+.table-annunci-elenco-amministratore
+{
+	font-family : suez;
+	text-align : center;
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+	background-color : #EFEFEF;
+	border: .5px solid black;
+	border-radius: .5rem;
+}
+
+
+.title-annunci
+{
+	text-align : center;
+}
+
+.file-chooser
+{
+	width:160px;
+}
+
+p
+{
+	text-align : center;
+}
+
+.button-annuncio
+{
+	border: .5px solid black;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    font-family: suez;
+    font-size: 1rem;
+    cursor: pointer;
+    background: black;
+    color:white;
+}
+
+.button-modifica
+{
+	background: black;
+    color:white;
+    cursor: pointer;
+}
+
+.button-modifica:hover
+{
+	background: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.button-annuncio:hover
+{
+	background: white;
+    border: 1px solid black;
+    color: black;
+}
