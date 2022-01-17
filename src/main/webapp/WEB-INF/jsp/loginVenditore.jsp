@@ -103,8 +103,8 @@
                 <div class="form">
                 	<h2 class="category-title-annuncio">AGGIUNGI UN ANNUNCIO QUI</h2>
 					<form class="registrazione-form" method="post" action="aggiungiAnnuncio">
-						<input class="int" type="number" placeholder="prezzo" name= "prezzo">
-						<input class="int" type="number" placeholder="metri" name= "metri">
+						<p>prezzo<input class="int" type="number" value="0" name= "prezzo"></p>
+						<p>metri<input class="int" type="number" value="0" name= "metri"></p>
 						<input type="text" placeholder="aggiungi descrizione" name= "descrizione" value="">
 						<textarea rows="4" placeholder="aggiungi recensione" name="recensione" ></textarea>
 						<input type="file"  accept="image/*" name="image" value="" class="file-chooser">
